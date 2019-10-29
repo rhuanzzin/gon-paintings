@@ -5,9 +5,8 @@ body, li, ul, a{
     font-family: Helvetica; 
     font-size: 1rem;
     list-style: none; 
-    text-decoration: none; 
+    text-decoration: none;
     margin: 0px;
-    padding: 0px;
 }
 .flex{
     display: flex;
@@ -19,9 +18,6 @@ body, li, ul, a{
 .column{
     display: flex;
     flex-direction: column;
-}
-.grid{
-    display: grid;
 }
 .header{
     background-color: whitesmoke;
@@ -89,7 +85,6 @@ input[type=text]{
 
     height: 100%;
     margin: 20px 50px 20px 50px;
-    justify-content: left;
 
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -101,13 +96,11 @@ input[type=text]{
     margin-left:-580px;
     font-size: 4rem;
     font-weight: bolder;
-    text-align:left;
 }
 
 .destaque > figure {
     height: 450px;
     width: 450px;
-    margin-left: 100px;
 
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e9407f83157927.5d33f461267f5.jpg);
     background-size: 700px;
@@ -120,12 +113,7 @@ input[type=text]{
 
 /*PINTURAS*/
 
-.paint{
-    justify-content: space-evenly;
-}
-.paint > img {
-    margin-top: 20px;
-    margin-right: 20px;
+.paint > a > img {
     height: 200px;
     width: 200px;
     background-size: 200px;
@@ -205,13 +193,7 @@ input[type=text]{
         padding:2rem; 
         font-size: 0px;
         padding: 35px 20px 20px 20px;
-    }   
-    a > img{
-        width:2rem;
-        height: 2rem;
-        padding-left:10px;
-        padding-right:10px;
-       }
+    }
 input[type=text]{
         height: 10px;
         width: 150px;
@@ -232,11 +214,9 @@ input[type=text]{
         border-width: .2rem;
         border-radius: 10px;
     }
-    .paint > img{
+    .paint > a > img{
+        margin-left: 20px;
         border-width: .2rem; 
-        margin-top: 20px;
-        margin-right: 5px;
-        margin-left: 5px;
 
         height: 80px;
         width: 80px;
