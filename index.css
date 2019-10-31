@@ -18,6 +18,13 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+.grow1{
+  flex: 1 1 300px;
+}
+.grow2{
+  flex: 2 
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -85,7 +92,7 @@ input[type="text"] {
   font-family: Helvetica;
   font-weight: bolder;
 
-  height: 100%;
+  max-height: 650px;
   margin: 20px 50px 20px 50px;
 
   border-bottom-right-radius: 20px;
@@ -93,39 +100,34 @@ input[type="text"] {
 }
 
 /* DESTAQUE NOVO NOVO NOVO*/
-
+.new{
+  display: none;
+  flex: 1 1 100px;
+  border: solid pink
+}
 .new a {
-  margin-left: -580px;
   font-size: 4rem;
   font-weight: bolder;
 }
-
-.destaque > figure {
-  height: 450px;
-  width: 450px;
-
+.destaque{
+  flex: 2 2 100px;
+  margin: 3rem;
+  border: solid yellow;
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e9407f83157927.5d33f461267f5.jpg);
-  background-size: 700px;
+  background-size: cover;
   background-repeat: no-repeat;
-
-  border: solid white;
-  border-width: 0.5rem;
-  border-radius: 30px;
 }
 
 /*PINTURAS*/
-.paint > a {
-  padding: 10px;
+.paint{
+  flex: 1 1 200px;
+  border: solid green;
+  margin: 3rem;
 }
-
 .paint > a > img {
   height: 200px;
   width: 200px;
   background-size: 200px;
-
-  border: solid white;
-  border-width: 0.4rem;
-  border-radius: 20px;
 }
 
 /*==FOOTER====*/
@@ -159,9 +161,6 @@ input[type="text"] {
 /*--------------MEDIA-------------*/
 
 @media (max-width: 880px) {
-  .container {
-    flex-wrap: wrap;
-  }
   .menu li {
     padding: 0.8rem;
     margin-left: 3%;
@@ -169,9 +168,6 @@ input[type="text"] {
   }
   .menu li a {
     padding-left: 2.3rem;
-  }
-  .paint {
-    justify-content: center;
   }
   .footer > a {
     padding-right: 1rem;
@@ -202,28 +198,6 @@ input[type="text"] {
     padding: 10px;
     margin-top: 1.8rem;
     border-radius: 2rem;
-  }
-  .new a {
-    margin-top: -160%;
-    margin-left: -10%;
-    font-size: 2rem;
-  }
-  .destaque > figure {
-    margin-left: 20px;
-    height: 200px;
-    width: 200px;
-    background-size: 300px;
-    border-width: 0.2rem;
-    border-radius: 10px;
-  }
-  .paint > a > img {
-    margin-left: 20px;
-    border-width: 0.2rem;
-
-    height: 80px;
-    width: 80px;
-
-    background-size: 80px;
   }
 }
 
