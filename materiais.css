@@ -1,5 +1,6 @@
 body {
   background-color: rgb(210, 233, 233);
+
 }
 body,
 li,
@@ -34,6 +35,7 @@ a {
   font-size: 3rem;
   font-weight: bolder;
 }
+/**/
 .container {
   background-color: whitesmoke;
 
@@ -46,19 +48,6 @@ a {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.paint {
-  justify-content: center;
-}
-.paint > div {
-  height: 400px;
-  width: 400px;
-
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  background-color: tomato;
-}
-
 .footer {
   background-color: whitesmoke;
 
