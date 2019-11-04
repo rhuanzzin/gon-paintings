@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(210, 233, 233);
+
+}
+body,
+li,
+ul,
+a {
+  font-family: Helvetica;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+}
+.flex {
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+.header {
+  background-color: whitesmoke;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.header > span {
+  margin-top: 40px;
+  color: black;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+/**/
+.container {
+  background-color: whitesmoke;
+
+  font-family: Helvetica;
+  font-weight: bolder;
+
+  height: 100%;
+  margin: 20px 50px 20px 50px;
+
+  padding: 40px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  justify-content: center;
+}
+.mat{
+  height: 400px;
+  width: 300px;
+}
+.mat > img{
+  height: 100%;
+  max-width: 300px;
+}
+.mat-t > img{
+  height: 80%;
+  max-width: 100%;
+  margin-top: 50px;
+}
+.aviso{
+  color: rgb(199, 199, 199);
+  font-weight: 100;
+  text-align: center;
+  margin: 0px;
+}
+
+figure > p {
+  text-align: center;
+}
+
+.footer {
+  background-color: whitesmoke;
+
+  height: 130px;
+  max-width: 1366px;
+  margin: 50px;
+  font-weight: bolder;
+  justify-content: space-evenly;
+}
+.footer > a {
+  color: black;
+  padding-right: 12.5rem;
+  padding-left: 12.5rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.footer > a:hover {
+  background-color: rgb(240, 240, 240);
+}
+.linha {
+  margin-top: 15px;
+  height: 100px;
+  width: 2px;
+  background-color: black;
+}
