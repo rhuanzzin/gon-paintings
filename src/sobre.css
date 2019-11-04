@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(210, 233, 233);
+  }
+  body,
+  li,
+  ul,
+  a {
+    font-family: Helvetica;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+  }
+  .flex {
+    display: flex;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  .logo img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .container {
+    min-height:250px;
+    background-color: whitesmoke;
+  
+  
+    font-family: Helvetica;
+    font-weight: bolder;
+    margin: 50px 50px 20px 50px;
+  
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
