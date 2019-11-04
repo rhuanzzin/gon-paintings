@@ -5,7 +5,7 @@ body {
   li,
   ul,
   a {
-    font-family: Helvetica;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 1rem;
     list-style: none;
     text-decoration: none;
@@ -37,7 +37,6 @@ body {
 
   /**/
     form{
-        font-weight: bolder;
         background-color: whitesmoke;
         max-width: 500px;
         margin: 50px auto;

@@ -5,7 +5,7 @@ body,
 li,
 ul,
 a {
-  font-family: Helvetica;
+    font-family: 'Archivo Black', sans-serif;
   font-size: 1rem;
   list-style: none;
   text-decoration: none;
@@ -182,43 +182,56 @@ input[type="text"] {
 /*--------------MEDIA-------------*/
 
 @media (max-width: 880px) {
-  .menu li {
-    padding: 0.8rem;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  .menu li a {
-    padding-left: 2.3rem;
-  }
-  .footer > a {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
+
 }
 /*--------------------------------------------*/
 @media (max-width: 475px) {
-  .logo > img {
-    height: 50px;
-    width: 50px;
-  }
-  .menu {
-    justify-content: space-between;
-  }
-  .menu li {
-    padding: 10px;
-  }
-  .menu li a {
-    padding: 2rem;
-    font-size: 0px;
-    padding: 35px 20px 20px 20px;
+  body{
+    width: 100%;
   }
   input[type="text"] {
     height: 10px;
-    width: 150px;
+    width: 100px;
     padding: 10px;
     margin-top: 1.8rem;
     border-radius: 2rem;
+  }
+  .logo > img {
+    height: 60px;
+    width: 60px;
+  }
+  .container{
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+  }
+  .new > a{
+    font-size: 30px;
+  }
+  .destaque{
+    margin: 30px;
+    min-width: 150px;
+    max-height: 300px;
+  }
+  .art{
+    height: 100px;
+    width: 90px;
+    margin: 20px;
+  }
+  .footer {
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer > a {
+    padding-right: 0rem;
+    padding-left:0rem;
+    padding-top: .8rem;
+    font-size: 1rem;
+  }
+  .linha {
+    margin-top: 15px;
+    height: 20px;
+    width: 1px;
   }
 }
 
